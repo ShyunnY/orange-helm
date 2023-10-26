@@ -3,13 +3,13 @@ entries:
   guidebook:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-10-26T11:51:42.039514725+08:00"
+    created: "2023-10-26T13:28:00.981097383+08:00"
     description: A Helm chart for Kubernetes
     digest: b5f5191c7cb00d6611dfc84e01e41855a1de790e77611765de6c1116ba9ad71a
     name: guidebook
     type: application
     urls:
-    - https://shyunny.github.io/orange-helm/guidebook-0.1.0.tgz
+    - https://shyunny.github.io/orange-helm/charts/guidebook-0.1.0.tgz
     version: 0.1.0
   nginx:
   - annotations:
@@ -24,7 +24,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.25.3
-    created: "2023-10-26T11:51:42.041877886+08:00"
+    created: "2023-10-26T13:28:00.984945171+08:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -50,6 +50,6 @@ entries:
     sources:
     - https://github.com/bitnami/charts/tree/main/bitnami/nginx
     urls:
-    - https://shyunny.github.io/orange-helm/nginx-15.3.5.tgz
+    - https://shyunny.github.io/orange-helm/charts/nginx-15.3.5.tgz
     version: 15.3.5
-generated: "2023-10-26T11:51:42.039198673+08:00"
+generated: "2023-10-26T13:28:00.978988411+08:00"
