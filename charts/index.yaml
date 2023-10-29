@@ -3,7 +3,7 @@ entries:
   guidebook:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-10-26T13:28:00.981097383+08:00"
+    created: "2023-10-29T19:47:52.626186513+08:00"
     description: A Helm chart for Kubernetes
     digest: b5f5191c7cb00d6611dfc84e01e41855a1de790e77611765de6c1116ba9ad71a
     name: guidebook
@@ -24,7 +24,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.25.3
-    created: "2023-10-26T13:28:00.984945171+08:00"
+    created: "2023-10-29T19:47:52.634823263+08:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -52,4 +52,15 @@ entries:
     urls:
     - https://shyunny.github.io/orange-helm/charts/nginx-15.3.5.tgz
     version: 15.3.5
-generated: "2023-10-26T13:28:00.978988411+08:00"
+  policy:
+  - apiVersion: v2
+    appVersion: 0.2.9
+    created: "2023-10-29T19:47:52.635712443+08:00"
+    description: application policy ConfigMap
+    digest: 0f6f2105e97f75b505a9519c2862e396361d2ea8af9f057311d57ada172336f7
+    name: policy
+    type: application
+    urls:
+    - https://shyunny.github.io/orange-helm/charts/policy-0.0.8.tgz
+    version: 0.0.8
+generated: "2023-10-29T19:47:52.624831404+08:00"
