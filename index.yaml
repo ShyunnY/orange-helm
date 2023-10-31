@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  guestbook:
+  - apiVersion: v2
+    appVersion: dev-rc_1_a9a29a0
+    created: "2023-10-31T21:26:19.947685863+08:00"
+    description: guestbook application for org-orange
+    digest: ff079248434366192c75dd2d6f882b187d534b52e2893ef758870419a553601e
+    name: guestbook
+    type: application
+    urls:
+    - https://shyunny.github.io/orange-helm/charts/guestbook-0.0.2.tgz
+    version: 0.0.2
+  policy:
+  - apiVersion: v2
+    appVersion: 0.2.9
+    created: "2023-10-31T21:26:19.948472725+08:00"
+    description: application policy ConfigMap
+    digest: 0f6f2105e97f75b505a9519c2862e396361d2ea8af9f057311d57ada172336f7
+    name: policy
+    type: application
+    urls:
+    - https://shyunny.github.io/orange-helm/charts/policy-0.0.8.tgz
+    version: 0.0.8
+generated: "2023-10-31T21:26:19.946535837+08:00"
