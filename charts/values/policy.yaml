@@ -1,5 +1,0 @@
-locate:
-  zone: CN
-  region: FS-DRXY
-
-method: ssh-method
