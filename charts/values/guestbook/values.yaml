@@ -1,1 +1,3 @@
-name: xxoo
+metadata:
+  annotations:
+    - app.kubernetes.source/repo: github
