@@ -3,7 +3,17 @@ entries:
   guestbook:
   - apiVersion: v2
     appVersion: dev-rc_1_a9a29a0
-    created: "2023-10-31T21:26:19.947685863+08:00"
+    created: "2023-11-07T10:55:16.03726729+08:00"
+    description: guestbook application for org-orange
+    digest: 4d01ea8cf6d7543142015c84f389a1b63c64d9f3d1974dfa13f0f0f6fc47779d
+    name: guestbook
+    type: application
+    urls:
+    - https://shyunny.github.io/orange-helm/charts/guestbook-0.0.3.tgz
+    version: 0.0.3
+  - apiVersion: v2
+    appVersion: dev-rc_1_a9a29a0
+    created: "2023-11-07T10:55:16.036961309+08:00"
     description: guestbook application for org-orange
     digest: ff079248434366192c75dd2d6f882b187d534b52e2893ef758870419a553601e
     name: guestbook
@@ -14,7 +24,7 @@ entries:
   policy:
   - apiVersion: v2
     appVersion: 0.2.9
-    created: "2023-10-31T21:26:19.948472725+08:00"
+    created: "2023-11-07T10:55:16.037401772+08:00"
     description: application policy ConfigMap
     digest: 0f6f2105e97f75b505a9519c2862e396361d2ea8af9f057311d57ada172336f7
     name: policy
@@ -22,4 +32,4 @@ entries:
     urls:
     - https://shyunny.github.io/orange-helm/charts/policy-0.0.8.tgz
     version: 0.0.8
-generated: "2023-10-31T21:26:19.946535837+08:00"
+generated: "2023-11-07T10:55:16.034862081+08:00"
